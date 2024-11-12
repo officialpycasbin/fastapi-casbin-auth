@@ -1,28 +1,27 @@
-# fastapi-authz
+# fastapi-casbin-auth
 
-[![Build Status](https://github.com/pycasbin/fastapi-authz/actions/workflows/release.yml/badge.svg)](https://github.com/pycasbin/fastapi-authz/actions/workflows/release.yml)
-[![Coverage Status](https://coveralls.io/repos/github/pycasbin/fastapi-authz/badge.svg)](https://coveralls.io/github/pycasbin/fastapi-authz)
-[![Version](https://img.shields.io/pypi/v/fastapi-authz.svg)](https://pypi.org/project/fastapi-authz/)
-[![PyPI - Wheel](https://img.shields.io/pypi/wheel/fastapi-authz.svg)](https://pypi.org/project/fastapi-authz/)
-[![Pyversions](https://img.shields.io/pypi/pyversions/fastapi-authz.svg)](https://pypi.org/project/fastapi-authz/)
-[![Download](https://img.shields.io/pypi/dm/fastapi-authz.svg)](https://pypi.org/project/fastapi-authz/)
+[![Build Status](https://github.com/officialpycasbin/fastapi-casbin-auth/actions/workflows/release.yml/badge.svg)](https://github.com/officialpycasbin/fastapi-casbin-auth/actions/workflows/release.yml)
+[![Coverage Status](https://coveralls.io/repos/github/officialpycasbin/fastapi-casbin-auth/badge.svg)](https://coveralls.io/github/officialpycasbin/fastapi-casbin-auth)
+[![Version](https://img.shields.io/pypi/v/fastapi-casbin-auth.svg)](https://pypi.org/project/fastapi-casbin-auth/)
+[![PyPI - Wheel](https://img.shields.io/pypi/wheel/fastapi-casbin-auth.svg)](https://pypi.org/project/fastapi-casbin-auth/)
+[![Pyversions](https://img.shields.io/pypi/pyversions/fastapi-casbin-auth.svg)](https://pypi.org/project/fastapi-casbin-auth/)
+[![Download](https://img.shields.io/pypi/dm/fastapi-casbin-auth.svg)](https://pypi.org/project/fastapi-casbin-auth/)
 [![Discord](https://img.shields.io/discord/1022748306096537660?logo=discord&label=discord&color=5865F2)](https://discord.gg/S5UjpzGZjN)
 
-fastapi-authz is an authorization middleware for [FastAPI](https://fastapi.tiangolo.com/), it's based
-on [PyCasbin](https://github.com/casbin/pycasbin).
+fastapi-casbin-auth is an authorization middleware for [FastAPI](https://fastapi.tiangolo.com/), it's based on [PyCasbin](https://github.com/casbin/pycasbin).
 
 ## Installation
 
 Install from pip
 
 ```bash
-pip install fastapi-authz
+pip install fastapi-casbin-auth
 ```
 
 Clone this repo
 
 ```bash
-git clone https://github.com/pycasbin/fastapi-authz.git
+git clone https://github.com/officialpycasbin/fastapi-casbin-auth.git
 python setup.py install
 ```
 
@@ -40,7 +39,7 @@ from fastapi import FastAPI
 from starlette.authentication import AuthenticationBackend, AuthenticationError, SimpleUser, AuthCredentials
 from starlette.middleware.authentication import AuthenticationMiddleware
 
-from fastapi_authz import CasbinMiddleware
+from fastapi_casbin_auth import CasbinMiddleware
 
 app = FastAPI()
 
@@ -121,7 +120,7 @@ it in `demo/jwt_test.py`.
 ### Run unit tests
 
 1. Fork/Clone repository
-2. Install fastapi-authz dependencies, and run `pytest`
+2. Install fastapi-casbin-auth dependencies, and run `pytest`
 
 ```bash
 pip install -r dev_requirements.txt

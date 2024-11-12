@@ -22,13 +22,13 @@ dependency_links = [
 ]
 
 setup(
-    name="fastapi-authz",
-    author="Zxilly",
-    author_email="zhouxinyu1001@gmail.com",
+    name="fastapi-casbin-auth",
+    author="Casbin",
+    author_email="admin@casbin.org",
     description="An authorization middleware for FastAPI that supports ACL, RBAC, ABAC, based on PyCasbin",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pycasbin/fastapi-authz",
+    url="https://github.com/officialpycasbin/fastapi-casbin-auth",
     keywords=[
         "fastapi",
         "starlette",

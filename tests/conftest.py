@@ -12,7 +12,7 @@ from starlette.authentication import (
 from starlette.authentication import SimpleUser
 from starlette.middleware.authentication import AuthenticationMiddleware
 
-from fastapi_authz import CasbinMiddleware
+from fastapi_casbin_auth import CasbinMiddleware
 
 
 def get_examples(path):
