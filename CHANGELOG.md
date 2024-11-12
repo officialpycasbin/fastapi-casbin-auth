@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [1.2.0](https://github.com/officialpycasbin/fastapi-casbin-auth/compare/v1.1.0...v1.2.0) (2024-11-12)
+
+
+### Features
+
+* fix CI's Coverage error ([5096423](https://github.com/officialpycasbin/fastapi-casbin-auth/commit/50964235d393ab35e8b64bb6db8209ae78e1ecc1))
+
 # [1.1.0](https://github.com/officialpycasbin/fastapi-casbin-auth/compare/v1.0.0...v1.1.0) (2024-11-12)
 
 
