@@ -20,7 +20,7 @@ jobs:
       - name: Install Dependency
         run: |
           python -m pip install -r dev-requirements.txt
-          python -m pip install coveralls
+          python -m pip install pytest coveralls
 
       - name: Run Coverage
         run: |
