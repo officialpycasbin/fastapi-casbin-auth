@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [1.3.0](https://github.com/officialpycasbin/fastapi-casbin-auth/compare/v1.2.0...v1.3.0) (2025-08-12)
+
+
+### Features
+
+* switch from casbin to pycasbin ([6f039a8](https://github.com/officialpycasbin/fastapi-casbin-auth/commit/6f039a849e66d30bb4a472c2d3b07f08fdb56ba0))
+
 # [1.2.0](https://github.com/officialpycasbin/fastapi-casbin-auth/compare/v1.1.0...v1.2.0) (2024-11-12)
 
 
