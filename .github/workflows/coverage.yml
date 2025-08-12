@@ -25,6 +25,8 @@ jobs:
       - name: Run Coverage
         run: |
           python -m pytest --cov=fastapi_casbin_auth tests/
+          pip install "urllib3<2" --force-reinstall
+          pip show urllib3
           coveralls --service=github
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

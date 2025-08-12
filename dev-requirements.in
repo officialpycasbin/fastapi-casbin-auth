@@ -1,12 +1,14 @@
-fastapi
-casbin >= 1.0.0
-pytest
-pip-tools
+-r requirements.txt
+packaging >= 23.1
+setuptools <= 67.8.0
+pytest >= 8.0.0
+pip-tools >= 7.5.0
 pytest-cov
 bumpversion
-uvicorn
+uvicorn >= 0.18.0
 starlette-auth-toolkit
-requests
+httpx
+requests >= 2.28.0
 twine
 build
 pyjwt
