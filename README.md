@@ -5,7 +5,7 @@
 [![Version](https://img.shields.io/pypi/v/fastapi-casbin-auth.svg)](https://pypi.org/project/fastapi-casbin-auth/)
 [![PyPI - Wheel](https://img.shields.io/pypi/wheel/fastapi-casbin-auth.svg)](https://pypi.org/project/fastapi-casbin-auth/)
 [![Pyversions](https://img.shields.io/pypi/pyversions/fastapi-casbin-auth.svg)](https://pypi.org/project/fastapi-casbin-auth/)
-[![Download](https://img.shields.io/pypi/dm/fastapi-casbin-auth.svg)](https://pypi.org/project/fastapi-casbin-auth/)
+[![Download](https://static.pepy.tech/badge/fastapi-casbin-auth)](https://pypi.org/project/fastapi-casbin-auth/)
 [![Discord](https://img.shields.io/discord/1022748306096537660?logo=discord&label=discord&color=5865F2)](https://discord.gg/S5UjpzGZjN)
 
 fastapi-casbin-auth is an authorization middleware for [FastAPI](https://fastapi.tiangolo.com/), it's based on [PyCasbin](https://github.com/casbin/pycasbin).
