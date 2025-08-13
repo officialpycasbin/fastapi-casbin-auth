@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [1.4.0](https://github.com/officialpycasbin/fastapi-casbin-auth/compare/v1.3.0...v1.4.0) (2025-08-13)
+
+
+### Features
+
+* fix the download badge in README  ([#2](https://github.com/officialpycasbin/fastapi-casbin-auth/issues/2)) ([68eea29](https://github.com/officialpycasbin/fastapi-casbin-auth/commit/68eea29fd218b709fc8846c4ba5c2cd670b69a79))
+
 # [1.3.0](https://github.com/officialpycasbin/fastapi-casbin-auth/compare/v1.2.0...v1.3.0) (2025-08-12)
 
 
