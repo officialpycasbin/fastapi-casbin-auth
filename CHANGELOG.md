@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+# [1.5.0](https://github.com/officialpycasbin/fastapi-casbin-auth/compare/v1.4.0...v1.5.0) (2025-11-14)
+
+
+### Features
+
+* relax Pydantic version constraint to support 2.11.7+ ([#4](https://github.com/officialpycasbin/fastapi-casbin-auth/issues/4)) ([8aa4d51](https://github.com/officialpycasbin/fastapi-casbin-auth/commit/8aa4d513e63f3350608274e598c625eaea10eb0f))
+
 # [1.4.0](https://github.com/officialpycasbin/fastapi-casbin-auth/compare/v1.3.0...v1.4.0) (2025-08-13)
 
 
