@@ -47,7 +47,7 @@ setup(
     packages=find_packages(exclude=["docs", "test*"]),
     install_requires=install_requires,
     python_requires=">=3.6",
-    data_files=[desc_file, "requirements.txt"],
+    data_files=[desc_file, "requirements.in", "requirements.txt"],
     include_package_data=True,
     dependency_links=dependency_links,
     license="Apache 2.0",
