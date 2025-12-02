@@ -13,10 +13,10 @@ with open(path.join(here, desc_file), encoding="utf-8") as f:
 print(long_description)
 
 # get the dependencies and installs
-with open(path.join(here, "requirements.txt"), encoding="utf-8") as f:
+with open(path.join(here, "requirements.in"), encoding="utf-8") as f:
     all_reqs = f.read().split("\n")
 
-install_requires = [x.strip() for x in all_reqs if "git+" not in x]
+install_requires = [x.strip() for x in all_reqs if x.strip() and not x.startswith("#") and "git+" not in x]
 dependency_links = [
     x.strip().replace("git+", "") for x in all_reqs if x.startswith("git+")
 ]
