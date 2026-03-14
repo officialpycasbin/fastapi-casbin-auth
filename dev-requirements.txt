@@ -147,7 +147,7 @@ rich==14.2.0
     # via twine
 secretstorage==3.4.1
     # via keyring
-simpleeval==1.0.3
+simpleeval==1.0.5
     # via
     #   -r requirements.txt
     #   pycasbin
