@@ -133,7 +133,7 @@ pytest-cov==7.0.0
     # via -r dev-requirements.in
 readme-renderer==44.0
     # via twine
-requests==2.32.5
+requests==2.33.0
     # via
     #   -r dev-requirements.in
     #   id
