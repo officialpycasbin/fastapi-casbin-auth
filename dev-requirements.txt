@@ -177,7 +177,7 @@ typing-inspection==0.4.2
     # via
     #   -r requirements.txt
     #   pydantic
-urllib3==2.5.0
+urllib3==2.7.0
     # via
     #   requests
     #   twine
