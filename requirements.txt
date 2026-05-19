@@ -14,7 +14,7 @@ bracex==2.6
     # via wcmatch
 fastapi==0.121.2
     # via -r requirements.in
-idna==3.11
+idna==3.15
     # via anyio
 pycasbin==2.6.0
     # via -r requirements.in
